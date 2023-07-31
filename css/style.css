@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000;
+    color: #00CC99;
 }
 
 
+#empresa {
+    position: absolute;
+    left: 120px;
+}
+
+body {
+    color: #00CC99;
+    background-color: #000;
+}
+
+.nav-link {
+    margin-left: 0;
+}
