@@ -6,17 +6,3 @@
     color: #00CC99;
 }
 
-
-#empresa {
-    position: absolute;
-    left: 120px;
-}
-
-body {
-    color: #00CC99;
-    background-color: #000;
-}
-
-.nav-link {
-    margin-left: 0;
-}
