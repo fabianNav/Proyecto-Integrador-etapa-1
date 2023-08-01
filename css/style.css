@@ -6,3 +6,12 @@
     color: #00CC99;
 }
 
+.carousel.slide{
+    width: 700px;
+    text-align: center;
+}
+
+.container.justify-content-start{
+    margin-left: 150px;
+}
+
