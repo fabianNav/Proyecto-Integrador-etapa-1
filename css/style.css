@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #000;
-    color: #00CC99;
+    color: #00cc99;
 }
 
 .carousel.slide{
@@ -13,6 +13,11 @@
 
 .container.justify-content-start{
     margin-left: 150px;
+    margin-top: 0;
+}
+
+.fa-sharp.fa-solid.fa-cart-shopping {
+    color: #00CC99;
 }
 
 div.container {
@@ -53,4 +58,69 @@ a.btn.btn-primary {
 
 .vermas {
     margin-left: 60px;
+}
+
+footer {
+    background-color: #000;
+}
+
+address.container-fluid {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+}   
+
+div.accordion-item {
+    border: none;
+}
+
+button.accordion-button {
+    background-color: #000;
+    color: #00CC99;
+    border: solid 2px #000;
+}
+
+.accordion-collapse.collapse.show {
+    background-color: #fff;
+}
+
+button.accordion-button:hover {
+    background-color: #000;
+    color: #00CC99;
+    border: solid 2px #000;
+}
+
+button.accordion-button {
+    background-color: #000;
+    color: #00CC99;
+    border: solid 2px #000;
+}
+
+.nosotros-iconos{
+    margin: 3em 0;
+}
+
+.nosotros-iconos i {
+    margin-right: .8em;
+    box-shadow: 0 0 3px rgba(0, 0, 0, alpha.2);
+}
+
+.nosotros-iconos li {
+    display: inline-block;
+}
+
+.nosotros-iconos i:hover {
+    color: red;
+    transition: all 1s;
+}
+
+.tarjetas img {
+    width: 75px;
+}
+
+.columna{
+    background-color: #fff;
 }
