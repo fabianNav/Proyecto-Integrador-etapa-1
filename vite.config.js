@@ -14,6 +14,7 @@ export default {
         rolluOptions: {
             input: {
                 carrito: resolve('pages/carrito.html'),
+                categorias: resolve('pages/categorias.html'),
                 nosotros: resolve('pages/nosotros.html'),
                 contacto: resolve('pages/contacto.html'),
                 index: resolve('index.html')

@@ -28,10 +28,9 @@ div.container {
     flex-wrap: wrap;
 }
 
-section header h2 {
+section header {
     display: block;
-    align-items: center;
-    margin-left: 900px;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -43,6 +42,7 @@ div.card{
     border: #00CC99 solid 2px;
     border-radius: 5%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h5.card-title{
@@ -52,16 +52,12 @@ h5.card-title{
 a.btn.btn-primary {
     background-color: #00CC99;
     color: #000;
-    border-radius: 50%;
+    border-radius: 30px;
     margin-top: 10px;
 }
 
 .vermas {
     margin-left: 60px;
-}
-
-footer {
-    background-color: #000;
 }
 
 address.container-fluid {
@@ -123,4 +119,56 @@ button.accordion-button {
 
 .columna{
     background-color: #fff;
+}
+
+.separador {
+    width: 100%;
+    background-color: #00CC99;
+    height: 2px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+address div {
+    text-align: center;
+}
+
+.footer button {
+    margin-left: 32px;
+    text-decoration: none;
+    color: #00CC99;
+    background-color: #000;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+address div a{
+    background-color: #000;
+    color: #00CC99;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#facebook:hover {
+}
+
+#instagram:hover {
+
+}
+
+#twitter:hover {
+
+}
+
+#tiktok:hover {
+
 }
