@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,10 @@
     background-color: #000;
     color: #00cc99;
 }
+
+/* !-------------------------------------------------------------------------------- */
+
+/* index */
 
 .carousel.slide{
     width: 700px;
@@ -16,6 +21,34 @@
 }
 
 .fa-sharp.fa-solid.fa-cart-shopping {
+    color: #00CC99;
+}
+
+.dropdown {
+    color: #00CC99;
+}
+
+.btn.dropdown-toggle {
+    color: #00CC99;
+}
+
+.dropdown a.btn.dropdown-toggle:hover {
+    background-color: #00CC99;
+    color: #000;
+}
+
+.dropdown ul {
+    background-color: #00CC99;
+    border: solid 1px #00CC99;
+}
+
+.dropdown ul li a{
+    color: #000;
+    background-color: #00CC99;
+}
+
+.dropdown ul li a:hover {
+    background-color: #000;
     color: #00CC99;
 }
 
@@ -70,13 +103,9 @@ address.container-fluid {
 
 div.accordion-item {
     border: none;
+    width: 200px;
 }
 
-button.accordion-button {
-    background-color: #000;
-    color: #00CC99;
-    border: solid 2px #000;
-}
 
 .accordion-collapse.collapse.show {
     background-color: #fff;
@@ -136,17 +165,6 @@ address div {
     text-align: center;
 }
 
-.footer button {
-    margin-left: 32px;
-    text-decoration: none;
-    color: #00CC99;
-    background-color: #000;
-    border: none;
-    border-radius: 30px;
-    padding: 5px;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 
 address div ul li{
     background-color: #000;
@@ -168,9 +186,9 @@ address div ul li{
     transition: .5s;
 }
 
-address div ul li:hover {
+address div ul li:hover {/* tamaño y sombra del ovalo */
     width: 140px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 25px rgb(0, 0, 0);
 }
 
 address div ul li::before {
@@ -178,7 +196,6 @@ address div ul li::before {
     position: absolute;
     inset: 0;
     border-radius: 50px;
-    background-color: red;
     opacity: 0;
     transition: .5s;
 }
@@ -193,6 +210,7 @@ address div ul #instagram::before{
 
 address div ul #twitter::before{
     background: linear-gradient(  55deg, #1da1f2 49%, #fff);
+    
 }
 
 address div ul #tiktok::before{
@@ -216,7 +234,7 @@ address div ul #youtube::before{
     background: linear-gradient(25deg, #ff0000, #fff);
 }
 
-address div ul li:hover::before {
+address div ul li:hover::before { /* el ovalo que encierra al titulo */
     opacity: 1;
 }
 
@@ -227,7 +245,6 @@ address div ul li::after {
     width: 100%;
     height: 100%;
     border-radius: 60px;
-    background-color: aqua;
     opacity: 0;
     transition: .5s;
     z-index: -1;
@@ -245,19 +262,25 @@ address div ul li i {
     transition-delay: .25s;
 }
 
-address div ul li:hover i {
+address div ul li:hover i {   /* tiempo que se tarda el logo en desaparecer */
     transform: scale(0);
     font-size: 0;
     transition-delay: .25s;
 }
 
-address div ul li span {
+address div ul li a {   /* posicion de los link del footer */
     position: absolute;
 }
 
 address div ul li .titulo {
-    color: #fff;
-    font-size: 11px;
+    color: #000;
+}
+
+
+address div ul li .titulo {    /* titulos de las redes */
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration-line: none;
+    font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     transform: scale(0);
@@ -265,7 +288,23 @@ address div ul li .titulo {
     transition-delay: 0s;
 }
 
-address div ul li:hover .titulo {
+address div ul li .titulo#ttwitt {
+    font-size: 28px;
+}
+
+address div ul li .titulo#ttik {
+    font-size: 33px;
+}
+
+address div ul li .titulo#tyout {
+    font-size: 26px;
+}
+
+address div ul li .titulo#tlink {
+    font-size: 25px;
+}
+
+address div ul li:hover .titulo {    /* tiempo en el que se tarda en aparecer el titulo de la red */
     transform: scale(1);
     transition-delay: .25s;
 }
@@ -283,3 +322,59 @@ address div ul {
     display: flex;
 }
 
+/* !-------------------------------------------------------------------------------------------------------- */
+
+/* nosotros */
+
+main {
+    align-items: center;
+}
+
+section.justify-content-center.d-flex.nosotros {
+    width: 1100px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+section.justify-content-center.d-flex.nosotros div.card {
+    border-radius: 0;
+    width: 711.84px;
+    border-radius: 30px;
+}
+
+div.col-md-4 {
+    border-radius: 30px;
+}
+
+.row.g-0 {
+    border-radius: 30px;
+}
+
+section.justify-content-center.d-flex.nosotros div.card div.card-body {
+    border-radius: 30px;
+}
+
+div.card div .verde {
+    background-color: #00CC99;
+    color: #000;
+}
+
+div.card .verde {
+    background-color: #00CC99;
+}
+
+div.card.verde {
+    background-color: #00CC99;
+}
+
+.img-fluid.rounded-start {
+    border-radius: 20px;
+    height: 370px;
+}
+
+
+
+/* !--------------------------------------------------------------- */
+
+/* categorias */
