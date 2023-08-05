@@ -405,53 +405,66 @@ div.card.verde {
 }
 
 
-section.container.nosotros.formu {
-    width: 1300px;
-}
-
-
-
-
-section.container.nosotros header {
-    background-color: #00CC99;
-    width: 980px;
-}
-
-
-section.container.nosotros header h2{
-    background-color: #00CC99;
-    color: #000;
-}
-
-form.container.nosotros{
-    width: 980px;
-}
-
-section.container.nosotros header, section.container.nosotros form {
-    border: 1px solid #00CC99;
-    flex-wrap: wrap;
-    
-}
-
-
-section.container.nosotros form div{
-    width: 200px;
-    display: inline-block;
-    margin: 40px;
-    text-align: center;
-}
-
-section.container.nosotros.formu button {
-    background-color: #00CC99;
-    transition: 1s;
-}
-
-section.container.nosotros button:hover {
-    color: #00CC99;
-    background-color: #000;
-}
 
 
 /* !--------------------------------------------------------------- */
 
 /* categorias */
+
+
+/* !----------------------------------------------------------------- */
+/* Contacto */
+
+
+section.container.contacto.formu {
+    width: 280px;
+}
+
+
+
+
+section.container.contacto header {
+    background-color: #00CC99;
+    width: 280px;
+}
+
+
+section.container.contacto header h2{
+    background-color: #00CC99;
+    color: #000;
+}
+
+form h4 {
+    font-size: 20px;
+    color: #00cc9977;
+}
+
+form.container.contacto{
+    width: 280px;
+}
+
+section.container.contacto header, section.container.contacto form {
+    border: 1px solid #00CC99;
+    
+}
+
+
+section.container.contacto form div{
+    width: 200px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+section.container.contacto.formu button {
+    background-color: #00CC99;
+    transition: 1s;
+}
+
+section.container.contacto button:hover {
+    color: #00CC99;
+    background-color: #000;
+}
+
+section.container.contacto.formu header.container.formu {
+    margin-top: 0;
+}
