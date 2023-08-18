@@ -11,10 +11,8 @@
 
 /* !index */
 
-.carousel.slide{
-    width: 700px;
-    text-align: center;
-}
+
+
 
 .container.justify-content-center, .fa-sharp.fa-solid.fa-cart-shopping, .dropdown{
     margin-top: 0;
@@ -57,6 +55,7 @@
     color: #000;
 }
 
+
 div.container {
     display: flex;
     justify-content: center;
@@ -65,13 +64,22 @@ div.container {
     flex-wrap: wrap;
 }
 
+/* ?carrusel----------------------------------------------------------------------------------------------------------- */
+.carousel.slide{
+    width: 700px;
+    text-align: center;
+}
+/* ?-------------------------------------------------------------------------------------------------------------------- */
 section header {
     display: block;
     text-align: center;
     margin-top: 50px;
 }
 
+/* ?cards----------------------------------------------------------------------------------------------------------- */
+
 div.card{
+    width: 18rem;
     color: #fff;
     margin-left: 4px;
     background-color: #000;
@@ -85,12 +93,42 @@ div.card{
 h5.card-title{
     color: #fff;
 }
+h5.card-title, h4.precio{
+    text-align: center;
+}
+ul.card-text {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
 
+/*? Card de consola -------*/
+
+ul.card-text.cons {             
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin-right: 1.7rem;
+}
+
+/* ?----------------------- */
+
+/* ?-------------------------------------------------------------------------------------------------------------------- */
+
+/* ?BOTONES------------------------------------------------------------------------------------------------------------- */
 a.btn.btn-primary {
     background-color: #00cccc;
     color: #000;
     border-radius: 30px;
     margin-top: 10px;
+}
+
+a.btn.btn-primary:active{
+    background-color: #000;
+    color: #00cccc;
+    border: #00cccc 1px solid;
 }
 
 .vermas {
@@ -100,6 +138,8 @@ a.btn.btn-primary {
 .btn.btn-primary.comprar, .btn.btn-primary.vermas{
     border-color: #00cccc;
 }
+/* ?-------------------------------------------------------------------------------------------------------------------- */
+
 
 address.container-fluid {
     display: flex;
@@ -158,6 +198,8 @@ button.accordion-button {
     background-color: #fff;
 }
 
+/* !SEPARADOR----------------------------------------------------------------------------------------- */
+
 .separador {
     width: 100%;
     background-color: #00cccc;
@@ -165,6 +207,11 @@ button.accordion-button {
     
 }
 
+/* !SEPARADOR----------------------------------------------------------------------------------------- */
+
+
+/* !FOOTER----------------------------------------------------------------------------------------------*/
+/* ?ICONOS-FOOTER--------------------------------------------------------------------------------------- */
 .footer {
     display: flex;
     width: 100%;
@@ -331,6 +378,9 @@ address div ul {
     position: relative;
     display: flex;
 }
+/* ?--------------------------------------------------------------------------------------------------- */
+
+/* ?SLIDER--------------------------------------------------------------------------------------------- */
 
 .slider {
     display: flex;
@@ -372,6 +422,10 @@ address div ul {
         transform: translateX(-3000px);
     }
 }
+/* ?--------------------------------------------------------------------------------------------- */
+/* !----------------------------------------------------------------------------------------------*/
+
+
 
 /* !------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -459,8 +513,6 @@ div.card.verde {
 
 /* !--------------------------------------------------------------- */
 
-/* categorias */
-
 
 /* !----------------------------------------------------------------- */
 /* Contacto */
@@ -518,3 +570,4 @@ section.container.contacto button:hover {
 section.container.contacto.formu header.container.formu {
     margin-top: 0;
 }
+/* !------------------------------------------------------------------------------------------------------------------------------- */
