@@ -103,14 +103,18 @@ ul.card-text {
     margin-right: 1rem;
 }
 
-/*? Card de consola -------*/
+/*? Card de categorias -------*/
 
-ul.card-text.cons {             
+ul.card-text.cat {             
     display: flex;
     flex-direction: column;
     justify-content: center;
     list-style: none;
     margin-right: 1.7rem;
+}
+
+#img-grande {
+    height: 15.270rem;
 }
 
 /* ?----------------------- */
