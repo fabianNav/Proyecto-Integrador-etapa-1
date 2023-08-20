@@ -17,6 +17,15 @@
 .container.justify-content-center, .fa-sharp.fa-solid.fa-cart-shopping, .dropdown{
     margin-top: 0;
 }
+/* ?NAV----------------------------------------------------------------------------- */
+
+a.nav-link.ms-5:hover{
+    background-color: #00cccc;
+    color: #000;
+    border: 1px solid #00cccc;
+    padding: 0.375rem;
+    border-radius: 8px;
+}
 
 .btn.dropdown-toggle {
     color: #00cccc;
@@ -54,6 +63,8 @@
     border: 1px solid #000;
     color: #000;
 }
+
+/* ?----------------------------------------------------------------- */
 
 
 div.container {
