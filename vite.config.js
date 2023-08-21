@@ -17,12 +17,12 @@ export default {
                 contectividad: resolve('pages/conectividad.html'),
                 consolas: resolve('pages/consolas.html'),
                 notebooks: resolve('pages/notebooks.html'),
-                perifericos: resolve('pages/consolas.html'),
-                carrito: resolve('pages/perifericos.html'),
+                perifericos: resolve('pages/perifericos.html'),
                 software: resolve('pages/software.html'),
                 categorias: resolve('pages/todo.html'),
                 nosotros: resolve('pages/nosotros.html'),
                 contacto: resolve('pages/contacto.html'),
+                carrito: resolve('pages/carrito.html'),
                 index: resolve('index.html')
             }
         }
