@@ -1,6 +1,6 @@
-import { resolve } from "node:path"
+import { resolve } from 'node:path'
 
-console.log (resolve("pages"))
+// console.log(resolve('pages'))
 
 export default {
     server: {
@@ -11,7 +11,7 @@ export default {
     },
     build: {
         emptyOutDir: true,
-        rolluOptions: {
+        rollupOptions: {
             input: {
                 accesorios: resolve('pages/accesorios.html'),
                 contectividad: resolve('pages/conectividad.html'),
